@@ -68,10 +68,11 @@ Response (200):
 When deployed (e.g. Render), the base URL can be used as:
 
 ```
-POST https://<your-app>.onrender.com/identify
+POST https://bitespeed-task-tsiq.onrender.com/identify
 Content-Type: application/json
 
 {"email": "mcfly@hillvalley.edu", "phoneNumber": "123456"}
 ```
 
 Use **JSON body**, not form-data.
+
